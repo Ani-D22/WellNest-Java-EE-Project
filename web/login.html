@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles/login.css">
+    <link rel="stylesheet" href="styles/header.css">
+</head>
+<body>
+    <header>
+            <div class="logo">
+                <img src="images/WellNest.png" alt="WellNest">
+            </div>
+            
+            <div class="nav-links">
+                <a href="index.jsp">Home</a>
+                <a href="register.html">Register</a>
+                <a href="adminLogin">Admin Login</a>
+            </div>
+        </header>
+    
+    <div class="container">
+        <form action="SpecialistLoginChecker" method="post" class="login-box specialist">
+            <h2>Login as a Specialist</h2>
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input class="button" type="submit" value="Login">
+        </form>
+        
+        <form action="UserLoginChecker" method="post" class="login-box user">
+            <h2>Login as a User</h2>
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input class="button" type="submit" value="Login">
+        </form>
+    </div>
+</body>
+</html>
