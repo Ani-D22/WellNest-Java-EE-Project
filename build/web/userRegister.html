@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Register</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/userOrSpecialistRegister.css" type="text/css">
+    </head>
+    <body>
+        <div  class="container">
+            <h1>Register as a User</h1>
+            <form action = "UserRegistrationChecker" method = "post" class="register-box">
+                <table>
+                    <tr>
+                        <td><p><strong>Username:</strong></p></td>
+                        <td><input type = "text" name = "username" placeholder="Enter username here"></td>
+                    </tr>
+                    <tr>
+                        <td><p><strong>Password:</strong></p></td>
+                        <td><input type = "password" name = "password" placeholder="Enter password here"></td>
+                    </tr>
+                    <tr>
+                        <td><p><strong>Confirm Password:</strong></p></td>
+                        <td><input type = "password" name = "confirmPassword" placeholder="Confirm Password here"></td>
+                    </tr>
+                    <tr>
+                        <td><p><strong>Age:</strong></p></td>
+                        <td><input type = "text" name = "age" placeholder="Enter age here"></td>
+                    </tr>
+                    <tr>
+                        <td><p><strong>Gender:</strong></p></td>
+                        <td><input type = "text" name = "gender" placeholder="Enter gender here"></td>
+                    </tr>
+                    <tr>
+                        <td><p><strong>Address:</strong></p></td>
+                        <td><input type = "text" name = "address" placeholder="Enter address here"></td>
+                    </tr>
+                    <tr>
+                        <td><p><strong>Phone:</strong></p></td>
+                        <td><input type = "text" name = "phone" placeholder="Enter phone here"></td>
+                    </tr>
+                </table>
+                <div class="buttons">
+                    <input type="reset" value="Reset" class="button">
+                    <input type="submit" value="Register" class="button">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
